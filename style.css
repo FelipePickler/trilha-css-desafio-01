@@ -1,0 +1,156 @@
+/* Reset e configuração geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0C0C0C;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Banner */
+.banner {
+  background-image: url('assets/images/banner.png');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.banner-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.banner button {
+  background-color: #ff416c;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: #ff4b2b;
+}
+
+/* Section: O que vou aprender */
+#course-content {
+  padding: 60px 20px;
+  background-color: #1B1B1B;
+  text-align: center;
+}
+
+#course-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#course-content p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.module {
+  background-color: #252525;
+  padding: 15px;
+  border-left: 4px solid #ff416c;
+  text-align: left;
+  font-size: 1rem;
+}
+
+/* Section: Transforme o mundo */
+#transform-world {
+  background-image: url('assets/images/woman-code.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#transform-world p {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Section: Desafios profissionais */
+#professional-challenges {
+  padding: 60px 20px;
+  background-color: #1B1B1B;
+  text-align: center;
+}
+
+#professional-challenges h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#professional-challenges img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#professional-challenges p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer .dio-logo {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: #ff416c;
+  text-decoration: none;
+}
